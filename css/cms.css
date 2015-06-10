@@ -1,4 +1,9 @@
-.article-image {
+.article-image-right {
     float: right;
+    padding-top: 1.3em;
+}
+
+.article-image-left {
+    float: left;
     padding-top: 1.3em;
 }
