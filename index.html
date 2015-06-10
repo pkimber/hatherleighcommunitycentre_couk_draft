@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      Title
+    </title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+    <link rel="stylesheet" href="css/layouts/side-menu.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="{% static 'ico/favicon.ico' %}">
+  </head>
+  <body>
+    <div id="layout">
+      <!-- Menu toggle -->
+      <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+      </a>
+      <div id="menu">
+        <div class="pure-menu">
+          <a class="pure-menu-heading" href="{% url 'project.home' %}">Home</a>
+          <ul class="pure-menu-list">
+            <li class="pure-menu-item">
+              <a class="pure-menu-link" href="{% url 'logout' %}">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="header">
+          <h1>
+            Heading 1
+          </h1>
+          <h2>
+            Heading 2
+          </h2>
+        </div>
+      </div>
+      <div class="content">
+        <div class="pure-g-r">
+          <div class="pure-u-1">
+            <p>This is some content</p>
+          </div>
+        </div>
+        <div class="pure-u-1">
+          <p>This is the footer</p>
+        </div>
+      </div>
+    </div>
+      <script src="js/ui.js' %}" type="text/javascript"></script>
+      </script>
+  </body>
+</html>
