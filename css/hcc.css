@@ -1,0 +1,58 @@
+body {
+    background: #A3C586;
+    color: #333;
+}
+
+.header h1 {
+        color: #333;
+        margin: 0;
+        padding: 0;
+}
+
+.header h2 {
+        color: #333;
+}
+
+
+#menu {
+	background: #5B7444;
+}
+	/*
+    All anchors inside the menu should be styled like this.
+    */
+	#menu a {
+	        color: #FCF1D1;
+	        border: none;
+	        padding: 0.6em 0 0.6em 0.6em;
+	    }
+
+    /*
+        Change color of the anchor links on hover/focus.
+        */
+        #menu .pure-menu li a:hover,
+        #menu .pure-menu li a:focus {
+            background: #688B9A;
+        }
+
+    /*
+    This styles the selected menu item `<li>`.
+    */
+    #menu .pure-menu-selected,
+    #menu .pure-menu-heading {
+        background: #47697E;
+    }
+        /*
+        This styles a link within a selected menu item `<li>`.
+        */
+        #menu .pure-menu-selected a {
+            color: #fff;
+        }
+
+    /*
+    This styles the menu heading.
+    */
+    #menu .pure-menu-heading {
+        font-size: 110%;
+        color: #FCF1D1;
+        margin: 0;
+    }    
