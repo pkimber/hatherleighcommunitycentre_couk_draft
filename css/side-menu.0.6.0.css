@@ -1,5 +1,5 @@
 body {
-    color: #333333;
+    color: #777;
 }
 
 .pure-img-responsive {
@@ -69,8 +69,6 @@ The content `<div>` is where all your content goes.
     font-weight: 300;
     color: #888;
 }
-
-
 
 /*
 The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that

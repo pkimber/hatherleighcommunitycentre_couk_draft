@@ -8,14 +8,26 @@ body {
     color: #2F3E42;
 }
 
-.header h1 {
-        color: #2F3E42;
+a {
+    color: #FAFFB8; /* block-background-text-normal */
+    text-decoration: none;
 }
 
-.header h2 {
-        color: #2F3E42;
+a:visited {
+    color: #FAFFB8; /* block-normal-text-normal */
 }
 
+.header {
+    border-bottom: 1px solid #2F3E42;
+}
+
+    .header h1 {
+            color: #FAFFB8;
+    }
+
+    .header h2 {
+            color: #2F3E42;
+    }
 
 #menu {
 	background: #478F7F;
@@ -55,4 +67,14 @@ body {
     */
     #menu .pure-menu-heading {
         color: #FAFFB8;
-    }    
+    }
+
+/*
+ * Footer Module Styles
+ */
+.legal {
+    border-top: 1px solid #2F3E42;
+    padding: 0.5em 5;
+    background: #87C995;
+}
+
