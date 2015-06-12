@@ -6,6 +6,7 @@ http://www.colourlovers.com/palette/1222711/I_eat_only_palettes
 body {
     background: #87C995;
     color: #2F3E42;
+    margin: 0em 0 1em;
 }
 
 a {
@@ -22,14 +23,10 @@ a:visited {
 }
 
     .header h1 {
-            color: #FAFFB8;
-    }
-
-    .header h2 {
             color: #2F3E42;
     }
 
-#menu {
+ #menu {
 	background: #478F7F;
 }
 	/*
