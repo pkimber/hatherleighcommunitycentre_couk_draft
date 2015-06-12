@@ -1,58 +1,58 @@
+/*
+Colour scheme from:;
+http://www.colourlovers.com/palette/1222711/I_eat_only_palettes
+*/
+
 body {
-    background: #A3C586;
-    color: #333;
+    background: #87C995;
+    color: #2F3E42;
 }
 
 .header h1 {
-        color: #333;
-        margin: 0;
-        padding: 0;
+        color: #2F3E42;
 }
 
 .header h2 {
-        color: #333;
+        color: #2F3E42;
 }
 
 
 #menu {
-	background: #5B7444;
+	background: #478F7F;
 }
 	/*
     All anchors inside the menu should be styled like this.
     */
 	#menu a {
-	        color: #FCF1D1;
-	        border: none;
-	        padding: 0.6em 0 0.6em 0.6em;
-	    }
+	        color: #2F3E42;
+	}
 
     /*
-        Change color of the anchor links on hover/focus.
-        */
-        #menu .pure-menu li a:hover,
-        #menu .pure-menu li a:focus {
-            background: #688B9A;
-        }
+    Change color of the anchor links on hover/focus.
+    */
+    #menu .pure-menu li a:hover,
+    #menu .pure-menu li a:focus {
+        background: #39E6AC;
+    }
 
     /*
     This styles the selected menu item `<li>`.
     */
     #menu .pure-menu-selected,
     #menu .pure-menu-heading {
-        background: #47697E;
+        background: #2F3E42;
     }
-        /*
-        This styles a link within a selected menu item `<li>`.
-        */
-        #menu .pure-menu-selected a {
-            color: #fff;
-        }
+
+    /*
+    This styles a link within a selected menu item `<li>`.
+    */
+    #menu .pure-menu-selected a {
+        color: #FAFFB8;
+    }
 
     /*
     This styles the menu heading.
     */
     #menu .pure-menu-heading {
-        font-size: 110%;
-        color: #FCF1D1;
-        margin: 0;
+        color: #FAFFB8;
     }    
